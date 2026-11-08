@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/application.schema.json",
+  "schemaVersion": 1,
+  "isFeatured": false,
+  "isEditorsPick": false,
+  "name": "Teclo",
+  "slug": "teclo",
+  "websiteUrl": "https://teclo.app/",
+  "tagline": "Play a mechanical keyboard sound for every key you press, in any app.",
+  "description": "Teclo is a menu bar app that makes a Mac keyboard sound mechanical. Every key you press, in any app, plays a sound from one of 16 packs that are synthesized inside the app rather than recorded.\n\nPress and release sound different, Space, Return and Delete have their own sounds, and keys are panned left to right in stereo. Beyond keyboards, the packs include a typewriter with a bell on Return, rain, marimba, an old terminal, arcade blips and a sci-fi zap.\n\n## Features\n\n- Choose from 16 packs: linear, tactile, clicky, buckling-spring, silent, rubber-dome and heavy \"thock\" keyboards plus non-keyboard styles.\n- Hear separate press and release sounds, with dedicated sounds for Space, Return and Delete.\n- Add optional mouse click, scroll and trackpad sounds.\n- Design a pack over a base pack, record your own keyboard with the microphone, and share packs as .teclo files.\n- Keep a small keycap pet on screen that sleeps until your first key and gets livelier as you type faster.\n- Try every pack in the browser at teclo.app/sounds before downloading.\n\n## Where it fits\n\nTeclo is for people typing on a MacBook or a quiet keyboard who miss the sound of a mechanical board. Its packs are synthesized, so they sound consistent but less like one specific recorded switch than recording-based apps such as Klack. Like any typing-sound app, it can be distracting in a shared, quiet room.\n\n## Privacy and requirements\n\nTeclo requires macOS 13 Ventura or later and runs natively on Apple silicon and Intel. It needs Input Monitoring permission to detect key events. The developer says it hears which key moved, not what you type, keeps no history and needs no account.\n\n## Pricing\n\nTeclo costs $4.99 as a one-time purchase after a 1-day free trial, and one licence covers up to three Macs.",
+  "pricingType": "paid",
+  "billingType": "one_time",
+  "pricingDetails": "$4.99 one-time purchase, 1-day free trial",
+  "sourceType": "closed_source",
+  "youtubeUrl": null,
+  "categories": [
+    "customization"
+  ],
+  "relatedAppSlugs": [
+    "klack",
+    "keeby"
+  ],
+  "media": {
+    "icon": {
+      "sourceUrl": "https://teclo.app/apple-touch-icon.png",
+      "altText": "Teclo application icon"
+    },
+    "preview": {
+      "sourceUrl": "https://teclo.app/app/window.png",
+      "altText": "Teclo window listing its sound packs"
+    },
+    "screenshots": [
+      {
+        "sourceUrl": "https://teclo.app/media/packs-light.png",
+        "altText": "Teclo's 16 sound packs"
+      },
+      {
+        "sourceUrl": "https://teclo.app/app/pet.png",
+        "altText": "Teclo's keycap pet on the desktop"
+      }
+    ]
+  }
+}
